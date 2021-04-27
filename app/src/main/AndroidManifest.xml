@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cvm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CVM">
+        <activity android:name=".User.Hospital_slots"></activity>
+        <activity android:name=".Admin.Admin_Homepage" />
+        <activity android:name=".Authentication.Authentication_page" />
+        <activity android:name=".Authentication.Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Admin.Admin_login_page" />
+        <activity android:name=".User.User_Login_page" />
+        <activity android:name=".User.User_Homepage" />
+        <activity android:name=".User.User_registration_page"></activity>
+        <activity android:name=".Admin.Admin_registration_page" />
+    </application>
+
+</manifest>
